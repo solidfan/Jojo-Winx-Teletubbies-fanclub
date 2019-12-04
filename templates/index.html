@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<!-- by solidfan -->
+    <meta charset="utf-8">
+    <title>Jojo/Winx/Teletubbies funclub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="jQuery Responsive Carousel - Owl Carusel">
+    <meta name="author" content="Bartosz Wojciechowski">
+    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href="static/bootstrapTheme.css" rel="stylesheet">
+    <link href="static/custom.css" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link href="static/owl.carousel.css" rel="stylesheet">
+    <link href="static/owl.theme.css" rel="stylesheet">
+
+
+    <!-- Le fav and touch icons -->
+   <link rel="shortcut icon" href="static/favicon.ico">
+
+  </head>
+  <body>
+
+      <div id="top-nav" class="navbar navbar-fixed-top">
+        
+   
+    <div id="title">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1>OMG I LOVE THEM ALL!!!!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <div id="demo">
+        <div class="container">
+          <div class="row">
+            <div class="span12">
+
+              <div id="owl-demo" class="owl-carousel">
+                <div class="item"><img src="static/images/1.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/2.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/3.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/4.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/5.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/6.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/7.jpg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/8.jpeg" alt="Owl Image"></div>
+                <div class="item"><img src="static/images/9.jpg" alt="Owl Image"></div>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+
+    <script src="static/jquery-1.9.1.min.js"></script> 
+    <script src="static/owl.carousel.js"></script>
+
+
+    <!-- Demo -->
+
+    <style>
+    #owl-demo .item{
+        margin: 3px;
+    }
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+        autoPlay: 3000,
+        items : 4,
+        itemsDesktop : [1199,3],
+        itemsDesktopSmall : [979,3]
+      });
+
+    });
+    </script>
+  </body>
+</html>
